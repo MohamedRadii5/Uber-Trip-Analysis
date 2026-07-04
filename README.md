@@ -41,32 +41,21 @@ This project leverages the modern Power BI Project (`.pbip`) format, allowing fo
             ├── distance & clock.png # Performance markers for trip logistics
             └── car, suv, sedan.png  # Analytical identifiers for fleet categorization
 ```
+## 🚀 Key Features
 
-# 🚀 Key Features
-Dynamic Navigation Menu: Integrated with slick UI icons (Home, Info, Refresh) ensuring a web-app-like user experience.
+* **Dynamic Web-App Navigation:** Integrated with intuitive UI icons (Home, Info, Refresh) to deliver a seamless, application-like user experience.
+* **Advanced Financial Analytics:** Real-time visibility into dynamic revenue streams, payment method distributions, and granular profitability analysis.
+* **Fleet Performance & Demographics:** Purpose-built analytics views comparing asset demand, operational utilization, and net margins across various vehicle segments (SUV, Sedan, Standard Cars).
+* **Time & Distance Profiling:** Interactive analytical components—including optimized donut charts—focusing on trip durations, temporal patterns, and mileage telemetry.
+* **Corporate Custom UI & Branding:** Built using a custom JSON theme architecture (`CY24SU10.json`) to enforce design consistency, crisp typography, and unified theme aesthetics.
 
-Advanced Financial Analytics: Real-time visibility into revenue streams, payment methods, and profitability analysis.
+---
 
-Fleet Demographics: Purpose-built views comparing the demand, utilization, and margins of various vehicle types (SUV, Sedan, Car).
+## 🛠️ Tech Stack & Tools
 
-Time & Distance Profiling: Interactive components (including tailored donut-charts) focusing on trip durations (clock) and mileage (distance).
+* **Power BI Ecosystem:** Leveraged Power BI Desktop and modern Project workflows for robust relational data modeling and canvas orchestration.
+* **DAX (Data Analysis Expressions):** Deployed to construct high-performance measures, advanced KPIs, and localized time-intelligence parameters.
+* **Power Query (M Language):** Utilized for enterprise-grade ETL (Extract, Transform, Load) processing to clean, shape, and structure raw transactional entries.
+* **JSON Theme Engineering:** Applied for configuring global reporting layouts, color palettes, and standardized UI typography.
 
-Branded Custom UI: Built utilizing a tailored JSON design schema (CY24SU10.json) to deliver a modern, cohesive, dark/light theme alignment.
-
-# 🛠️ Tech Stack & Tools
-Power BI Desktop / Project: Environment utilized for structuring the database relationships and reporting canvas.
-
-DAX (Data Analysis Expressions): Deployed for constructing complex measures, KPIs, and time-intelligence parameters.
-
-Power Query (M Language): Utilized for robust ETL (Extract, Transform, Load) processing to clean and shape raw transaction entries.
-
-JSON: Applied for building the global report aesthetics, typography, and theme styling.
-
-# 📥 How to Use
-Clone this repository to your local environment.
-
-Ensure you have the latest version of Power BI Desktop installed.
-
-Open the project folder structure or report file directly within Power BI.
-
-Update the Data Source Settings to point to your respective backend database to refresh and stream data.
+---
